@@ -1,0 +1,55 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace pryMenuTorresED
+{
+    public partial class frmMenu : Form
+    {
+        public frmMenu()
+        {
+            InitializeComponent();
+        }
+
+        private void frmCola_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void colaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCola frmCola = new frmCola();
+            frmCola.ShowDialog();
+
+        }
+
+        private void pilaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPila frmPila = new frmPila();
+            frmPila.ShowDialog();
+        }
+
+        private void lSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListaSimple frmListaSimple = new frmListaSimple();
+            frmListaSimple.ShowDialog();
+        }
+
+        private void lDEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListaDoble frmListaDoble = new frmListaDoble();
+            frmListaDoble.ShowDialog();
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+    }
+}
