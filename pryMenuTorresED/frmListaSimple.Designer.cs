@@ -71,16 +71,19 @@
             // 
             this.Codigo.HeaderText = "Código";
             this.Codigo.Name = "Codigo";
+            this.Codigo.ReadOnly = true;
             // 
             // Nombre
             // 
             this.Nombre.HeaderText = "Nombre";
             this.Nombre.Name = "Nombre";
+            this.Nombre.ReadOnly = true;
             // 
             // Tramite
             // 
             this.Tramite.HeaderText = "Trámite";
             this.Tramite.Name = "Tramite";
+            this.Tramite.ReadOnly = true;
             // 
             // lstPila
             // 
@@ -170,7 +173,7 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(11, 181);
+            this.btnAgregar.Location = new System.Drawing.Point(12, 181);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(293, 63);
             this.btnAgregar.TabIndex = 3;
