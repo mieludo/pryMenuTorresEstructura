@@ -72,7 +72,7 @@
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -90,28 +90,28 @@
             // colaToolStripMenuItem
             // 
             this.colaToolStripMenuItem.Name = "colaToolStripMenuItem";
-            this.colaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.colaToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.colaToolStripMenuItem.Text = "Cola";
             this.colaToolStripMenuItem.Click += new System.EventHandler(this.colaToolStripMenuItem_Click);
             // 
             // pilaToolStripMenuItem
             // 
             this.pilaToolStripMenuItem.Name = "pilaToolStripMenuItem";
-            this.pilaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pilaToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.pilaToolStripMenuItem.Text = "Pila";
             this.pilaToolStripMenuItem.Click += new System.EventHandler(this.pilaToolStripMenuItem_Click);
             // 
             // lSToolStripMenuItem
             // 
             this.lSToolStripMenuItem.Name = "lSToolStripMenuItem";
-            this.lSToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.lSToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.lSToolStripMenuItem.Text = "L.S";
             this.lSToolStripMenuItem.Click += new System.EventHandler(this.lSToolStripMenuItem_Click);
             // 
             // lDEToolStripMenuItem
             // 
             this.lDEToolStripMenuItem.Name = "lDEToolStripMenuItem";
-            this.lDEToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.lDEToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.lDEToolStripMenuItem.Text = "L.D.E";
             this.lDEToolStripMenuItem.Click += new System.EventHandler(this.lDEToolStripMenuItem_Click);
             // 
@@ -127,13 +127,13 @@
             // arbolesToolStripMenuItem
             // 
             this.arbolesToolStripMenuItem.Name = "arbolesToolStripMenuItem";
-            this.arbolesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.arbolesToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.arbolesToolStripMenuItem.Text = "Arboles";
             // 
             // grafosToolStripMenuItem
             // 
             this.grafosToolStripMenuItem.Name = "grafosToolStripMenuItem";
-            this.grafosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.grafosToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.grafosToolStripMenuItem.Text = "Grafos";
             // 
             // bDToolStripMenuItem
@@ -150,12 +150,14 @@
             this.mostrarTablaToolStripMenuItem.Name = "mostrarTablaToolStripMenuItem";
             this.mostrarTablaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.mostrarTablaToolStripMenuItem.Text = "Mostrar Tabla";
+            this.mostrarTablaToolStripMenuItem.Click += new System.EventHandler(this.mostrarTablaToolStripMenuItem_Click);
             // 
             // consultaEnSQLToolStripMenuItem
             // 
             this.consultaEnSQLToolStripMenuItem.Name = "consultaEnSQLToolStripMenuItem";
             this.consultaEnSQLToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.consultaEnSQLToolStripMenuItem.Text = "Consulta en SQL";
+            this.consultaEnSQLToolStripMenuItem.Click += new System.EventHandler(this.consultaEnSQLToolStripMenuItem_Click);
             // 
             // frmMenu
             // 

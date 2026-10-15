@@ -28,24 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cbxTabla = new System.Windows.Forms.ComboBox();
+            this.cboTabla = new System.Windows.Forms.ComboBox();
             this.btnMostrar = new System.Windows.Forms.Button();
             this.dgvTabla = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTabla)).BeginInit();
             this.SuspendLayout();
             // 
-            // cbxTabla
+            // cboTabla
             // 
-            this.cbxTabla.FormattingEnabled = true;
-            this.cbxTabla.Items.AddRange(new object[] {
-            "Autor",
-            "Idioma",
-            "Libro",
-            "Pais"});
-            this.cbxTabla.Location = new System.Drawing.Point(529, 376);
-            this.cbxTabla.Name = "cbxTabla";
-            this.cbxTabla.Size = new System.Drawing.Size(121, 21);
-            this.cbxTabla.TabIndex = 0;
+            this.cboTabla.FormattingEnabled = true;
+            this.cboTabla.Location = new System.Drawing.Point(529, 376);
+            this.cboTabla.Name = "cboTabla";
+            this.cboTabla.Size = new System.Drawing.Size(121, 21);
+            this.cboTabla.TabIndex = 0;
             // 
             // btnMostrar
             // 
@@ -55,6 +50,7 @@
             this.btnMostrar.TabIndex = 1;
             this.btnMostrar.Text = "Mostrar";
             this.btnMostrar.UseVisualStyleBackColor = true;
+            this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
             // 
             // dgvTabla
             // 
@@ -72,9 +68,10 @@
             this.ClientSize = new System.Drawing.Size(800, 485);
             this.Controls.Add(this.dgvTabla);
             this.Controls.Add(this.btnMostrar);
-            this.Controls.Add(this.cbxTabla);
+            this.Controls.Add(this.cboTabla);
             this.Name = "frmMostrarTabla";
             this.Text = "Mostrar Tabla";
+            this.Load += new System.EventHandler(this.frmMostrarTabla_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTabla)).EndInit();
             this.ResumeLayout(false);
 
@@ -82,7 +79,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox cbxTabla;
+        private System.Windows.Forms.ComboBox cboTabla;
         private System.Windows.Forms.Button btnMostrar;
         private System.Windows.Forms.DataGridView dgvTabla;
     }

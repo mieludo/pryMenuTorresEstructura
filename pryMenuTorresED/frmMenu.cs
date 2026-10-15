@@ -51,5 +51,17 @@ namespace pryMenuTorresED
         {
             Application.Exit();
         }
+
+        private void mostrarTablaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMostrarTabla frmMostrarTabla = new frmMostrarTabla();
+            frmMostrarTabla.ShowDialog();
+        }
+
+        private void consultaEnSQLToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConsultaDataBase frmConsultaDataBase = new frmConsultaDataBase();
+            frmConsultaDataBase.ShowDialog();
+        }
     }
 }

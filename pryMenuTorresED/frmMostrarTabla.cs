@@ -16,5 +16,21 @@ namespace pryMenuTorresED
         {
             InitializeComponent();
         }
+
+        clsConexionDos objMostrarTabla = new clsConexionDos();
+
+        private void frmMostrarTabla_Load(object sender, EventArgs e)
+        {
+            cboTabla.Items.Add("Autor");
+            cboTabla.Items.Add("Idioma");
+            cboTabla.Items.Add("Libro");
+            cboTabla.Items.Add("Pais");
+
+        }
+
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+            objMostrarTabla.listar(dgvTabla, cboTabla.Text);
+        }
     }
 }
